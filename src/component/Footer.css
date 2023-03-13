@@ -1,0 +1,63 @@
+.Footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #d21825;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.Footer form {
+    margin-left: 200px;
+}
+
+.Footer form h1 {
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs label {
+    color: white;
+    font-size: 1.25em;
+    padding-bottom: 10px;
+}
+
+.inputs input {
+    height: 30px;
+    font-size: 1.25em;
+    padding-left: 5px;
+    outline: none;
+}
+
+.inputs textarea {
+    outline: none;
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+.inputs button {
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: white;
+    color: #d21825;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.inputs button:hover {
+    color: white;
+    background: none;
+    border: 3px solid white;
+}
+

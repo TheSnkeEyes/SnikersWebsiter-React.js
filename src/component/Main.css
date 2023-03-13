@@ -1,0 +1,63 @@
+.Main{
+    width: 100%;
+    height: 100%;
+}
+
+.main_text{
+    width: 50%;
+    margin: 200px;
+}
+
+.main_text p {
+    font-size:2.3em;
+    color: #9e916b;
+    margin-bottom: -30px;
+}
+
+.main_text h1 {
+    font-size: 6em;
+}
+
+
+.main_text h2 {
+    font-size: 2.3em;
+    text-transform: uppercase;
+    margin-top: -30px;
+    text-align: right;
+    padding-right: 38%;
+}
+
+.main_btns {
+    display: flex;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main_btns button {
+    width: 190px;
+    height: 50px;
+    background-color: #d21825;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.price {
+    width: 150px;
+    height: 50px;
+    color: #d21825;
+    text-align: center;
+    border: 3px solid #d21825;
+}
+
+
+.main_image img {
+    position: absolute;
+    width: 40em;
+    right: 300px;
+    top: 100px;
+}
+
+
